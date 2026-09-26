@@ -32,7 +32,7 @@ jobs:
           display-engine: sarif-fmt
 
       - name: Secret Scanning with TruffleHog
-        uses: trufflesecurity/trufflehog@00155c9dc586f34d189adc83d3ac2698c2ec551f #v3.95.8
+        uses: trufflesecurity/trufflehog@a5f3de55cc2065ae4dde8fee24076f137fd62fcf #v3.97.8
         with:
           extra_args: --results=verified,unknown
 
